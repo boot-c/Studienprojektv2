@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.myTable {
+	font-family: arial;
+	font-size: 14px;
+	font-style: normal;
+	background-color: #FFF;
+	border: thin solid #333;
+	line-height: normal;
+	text-decoration: none;
+	width: 300px;
+	text-align: center;
+}
+.info {
+	color: #999;
+}
+.mybutton {
+}
+.mybutton:hover{
+	cursor: default;
+	color:#0099FF;	
+}

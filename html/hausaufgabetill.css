@@ -1,0 +1,98 @@
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+h3{
+ text-align: center;
+ margin-bottom: 15px;
+}
+body{
+  background-color: rgb(230,230,230);
+}
+
+table{
+  background-color: white;
+  position: relative;
+  float: left;
+  margin-left: 20%;
+}
+table, tr, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table tr:first-of-type{
+  border: 1px dotted black;
+  background-color: rgb(190,0,0);
+}
+
+table tr:first-of-type th{
+  border: 1px dotted black;
+  color: white;
+}
+
+.form-wrapper{
+ position: relative;
+ float: left;
+ margin-left: 15px;
+}
+
+#insert_form{
+  background-color: rgb(200,200,200);
+  border: 1px solid black;
+  width: 360px;
+  position: relative;
+  padding: 15px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);  
+}
+
+#insert_form input{
+ position: relative;
+ width: 100%;
+ font-size: 14px;
+ font-family: "Roboto", sans-serif;
+ border: 0;
+ margin: 0 0 15px;
+ padding: 15px;
+ border-radius: 0px;
+}
+
+input:hover{
+ background-color: rgb(240,240,240)
+}
+
+#pwinput:focus, #idinput:focus{
+ background-color: rgb(116, 223, 98);
+}
+
+#submitinput{
+ text-transform: uppercase;
+ letter-spacing: 4px;
+ font-weight: 500;
+}
+
+#submitinput:hover{
+ cursor: pointer;
+ background-color: rgb(116, 223, 98);
+}
+
+#delete_form{
+ margin: 0;
+ border: 0;
+ width: 100%;
+ background-color: white;
+ padding: 0;
+}
+
+#delete_form input{
+ background-color: rgb(220,220,220);
+ padding: 15px;
+ heigth: 100%;
+ margin: 0 none;
+ border: 0 none;
+}
+
+#delete_form input:hover{
+ background-color: rgb(240,80,80);
+ cursor: pointer;
+}

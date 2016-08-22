@@ -1,0 +1,8 @@
+
+
+projektserverniksch : Jul 28 13:54:28 : web : user NOT in sudoers ; TTY=pts/0 ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/apt-get install php
+
+
+
+projektserverniksch : Jul 29 12:10:21 : web : user NOT in sudoers ; TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/nano hausaufgabetill.php
+
